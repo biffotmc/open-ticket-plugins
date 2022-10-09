@@ -7,7 +7,13 @@ module.exports = () => {
     l = bot.language
     const {client,config,events,utils,actions} = api
     const pluginConfig = require("./configs/html-transcripts.json")
-    console.log("Loaded html transcripts")
+    if (pluginConfig.channel){
+        if (pluginConfig.channel.length < 16 || pluginConfig.channel.length > 20 || !/^\d+$/.test(pluginConfig.channel)){
+            createError("'hmtl-transcipts/channel' | this channel id is invalid")
+        }
+    } else{
+        console.log("Loaded html transcripts")
+    }
     events.onTicketClose(async(user,channel,guild,date,ticketdata,reason) => {
         const transcript = await discordTranscripts.createTranscript(channel, {
             limit: -1, // Max amount of messages to fetch.
