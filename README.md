@@ -12,7 +12,7 @@ I have alot of private plugins that I am currently not releasing because they ar
 
 #### Do you accept request?
 
-Yes, use the plugin request template [here](https://github.com/biffotmc/open-ticket-plugins/issues)
+Yes, use the plugin request template [here]([https://github.com/biffotmc/open-ticket-plugins/issues](https://github.com/biffotmc/open-ticket-plugins/issues/new?assignees=&labels=request&template=plugin-request.md&title=%5BREQUEST%5D))
 
 #### Will you continue to update these plugins?
 Probably
