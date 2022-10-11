@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "channel": "",
+    "openLogs":{
+        "enabled": true
+    },
+    "reopenLogs":{
+        "enabled":true
+    },
+    "closeLogs":{
+        "enabled": true
+    },
+    "deleteLogs":{
+        "enabled": true
+    },
+    "addLogs":{
+        "enabled": true
+    },
+    "removeLogs":{
+        "enabled": true
+    }
+}
